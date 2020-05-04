@@ -1,6 +1,6 @@
-# 董天一老师专栏
+# IPFS 基础入门知识
 
-## IPFS: Filecoin 和复制证明
+## 一 IPFS: Filecoin 和复制证明
 
 ### 概念
 
@@ -30,11 +30,9 @@
 
 复制证明(PoRep):PoRep 是 PoS 的进化版, 用来证明数据已经被矿工存储
 
-<div align="center">
-    <img src="./img/07.png">
-</div>
+![07.png](https://upload-images.jianshu.io/upload_images/23272720-485b07d6002871e2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-## IPFS 和 Filecoin
+## 二 IPFS 和 Filecoin
 
 P2P协议节点越多, 下载速度越快
 
@@ -108,11 +106,7 @@ filecoin是一个分布式存储网络，她把云存储转换为算法市场。
   
   filecoin开发了桥(Bridge)工具，它可以链接不同的区块链，这就是为什么那么多的白皮书提到要和ipfs和区块链链接起来，因为filecoin天生就拥有这样的能力。
 
-## 官方联系方式
-
-[官方博客](https://filecoin.io/blog)
-
-## Filecoin: 影响力容错(PFT)和预期共识(EC)
+## 三 Filecoin: 影响力容错(PFT)和预期共识(EC)
 
 ### Power Fault Tolerance:影响力容错
 
@@ -188,7 +182,7 @@ Filecoin的共识机制吸收了共识机制发展中的各种成果，第一次
 
 > 相信区块链的共识协议会随着区块链的发展进化出更加美好的共识协议，区块链也会逐步进化，成长！
 
-## IPFS 家族
+## 四 IPFS 家族
 
 IPFS这个项目其实很大，并不像大家想象的是一个东西，IPFS是由很多模块组成，每一个模块现在都已经独立成项目了，并且有自己的主页。
 
@@ -202,17 +196,15 @@ IPLD：ipld.io
 
 Multiformats：multiformats.io
 
-<div align="center">
-    <img src="./img/01.jpeg">
-</div>
+![01.jpeg](https://upload-images.jianshu.io/upload_images/23272720-e9290982614adf4f.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ### libp2p
 
 在过去的相当长时间里，开发者构建一个p2p网络并不是一件容易的事情。复杂的网络环境、各种各样的通信协议和网络设备的存在使得创建大规模的点对点网络变得复杂并且困难。IPFS团队将点对点(peer-to-peer)网络的网络层从IPFS工程里面分离出来，形成一个独立的项目，这就是libp2p。该项目不仅可以供IPFS使用，也可以提供其它项目使用，作为一个p2p工程的底层协议存在。
 
-<div align="center">
-    <img src="./img/02.jpg">
-</div>
+![02.jpg](https://upload-images.jianshu.io/upload_images/23272720-37e263dbd34e50d6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 Transports：传输层，TCP，uTP，QUIC，SCTP......
 
@@ -287,7 +279,7 @@ multihash:
 
 新的哈希值具有自我描述性质，它说明了自己是怎么来的。
 
-## Filecoin的通证经济
+## 五 Filecoin的通证经济
 
 ### 基本情况
 
@@ -345,11 +337,9 @@ Filecoin基金会：6年，线性释放
 
 丢失：由于丢失密钥而被锁定的Token
 
-## Filecoin：矿工是怎么专区FIL
+## 六 Filecoin：矿工是怎么赚取FIL
 
-<div align="center">
-    <img src="./img/03.jpg">
-</div>
+![03.jpg](https://upload-images.jianshu.io/upload_images/23272720-cc3d818a015dc130.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 Filecoin矿工分为两种：
 
@@ -372,9 +362,8 @@ Filecoin区块链的的共识协议形成了新币分发市场
 
 交易所：Filecoin代币和法币之间的交换
 
-<div align="center">
-    <img src="./img/04.jpg">
-</div>
+![04.jpg](https://upload-images.jianshu.io/upload_images/23272720-0321b44f8640d0be.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ### 价值交换市场
 
@@ -445,15 +434,14 @@ Note:
 
 我存的数据，下载也要付费吗？是的
    下图是一张阿里云OSS云存储的截图，上面显示存储数据量79.28G，本月的数据下载量1.6TB。存储要付费，流量也是要付费的。
-<div align="center">
-    <img src="./img/05.png">
-</div>
+
+![05.png](https://upload-images.jianshu.io/upload_images/23272720-6c8f447e8f70d10f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ### filecoin 区块奖励公式
 
-<div align="center">
-    <img src="./img/06.png">
-</div>
+![06.png](https://upload-images.jianshu.io/upload_images/23272720-f5eacc5aaa339643.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ### 挖矿机制
 
@@ -461,9 +449,8 @@ Note:
 
 Filecoin 的挖矿机制应该是目前所有挖矿的币种中最复杂的，远没有大家认为的有硬盘就可以挖矿那么简单。今年一季度，Filecoin 开发测试网的上线，有超过 80% 以上的矿机厂商发现自己的矿机在开发测试网上根本挖不到矿。先给大家看张图，估计就有点懵逼：
 
-<div align="center">
-    <img src="./img/07.png">
-</div>
+![07.png](https://upload-images.jianshu.io/upload_images/23272720-f29751ed1b563f76.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 协议实验室为了能让矿工们老老实实地为用户提供存储数据和检索数据的服务，公平的分配 Token，所以就设计了一套复杂的共识机制——复制证明（PoRep）和时空证明（PoSt），所以 Filecoin 挖矿也是目前所有挖矿的数字货币中最为复杂的，对于矿工的专业要求非常高。
 
@@ -471,19 +458,16 @@ Filecoin 主网上线初期，并不会有太多真实存储和检索服务的�
 
 而 Filecoin 挖矿的算力不是根据矿工的硬盘空间来计算的，而是根据矿工硬盘有效存储文件的数量来计算的。
 
-## Filecoin 矿机、矿场、矿池以及云算力的区别和关系
+## 七 Filecoin 矿机、矿场、矿池以及云算力的区别和关系
 
 ### 矿机
 
 Filecoin矿机实际上就是一台专业的存储服务器，它主要由机箱、主板、电源、风扇、处理器（CPU）、内存（RAM）、显卡（GPU）、硬盘等部件组成。除了一些辅助部件外，大家最关心的还是CPU、GPU、内存和硬盘等核心部件。
 
-<div align="center">
-    <img src="./img/08.png">
-</div>
+![08.png](https://upload-images.jianshu.io/upload_images/23272720-bd8fab08ba120da6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-<div align="center">
-    <img src="./img/09.png">
-</div>
+![09.png](https://upload-images.jianshu.io/upload_images/23272720-692599074380292d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 其实官方提出的硬件配置要求只是一个基础值，对于大矿工来说没有什么意义。
 
@@ -497,9 +481,8 @@ Filecoin矿机实际上就是一台专业的存储服务器，它主要由机箱
 
 首先说下硬盘。衡量硬盘的性能指标包括硬盘容量、硬盘速度、硬盘转速、接口、缓存、硬盘单碟容量等。因为Filecoin挖矿的本质还是做存储，从数据安全角度出发所以目前绝大多数矿机厂商采用的都是8T容量的企业级SATA机械硬盘，也有少部分矿机厂商选用的是10T或者12T的，大家基本上都是选择希捷、西部数据或东芝等几个主流品牌。
 
-<div align="center">
-    <img src="./img/10.jpg">
-</div>
+![10.jpg](https://upload-images.jianshu.io/upload_images/23272720-7cdaf8210c93db7c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 #### CPU
 
@@ -525,9 +508,8 @@ ElectionPoSt的时间要求很高，一般的CPU配置难以完成，因此，�
 
 我们所说的矿场，其实就是将几十、几百甚至几千台矿机（服务器）进行集中运维管理的一个物理空间集合。Filecoin 挖矿由于特有的抵押和惩罚机制，对于挖矿环境要求很高，原则上不允许出现断网断电的情况，否则可能触发惩罚机制，罚扣你所质押的代币，矿工得不偿失。
 
-<div align="center">
-    <img src="./img/11.jpeg">
-</div>
+![11.jpeg](https://upload-images.jianshu.io/upload_images/23272720-cf63b2790368fc6e.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 IDC的全称是Internet Data Center，也就是互联网数据中心，就是电信部门利用已有的互联网通信线路、带宽资源，建立标准化的电信专业级机房环境，为互联网内容提供商（ICP）、企业、媒体和各类网站提供大规模、高质量、安全可靠的专业化服务器托管、空间租用、网络批发带宽等业务。
 
